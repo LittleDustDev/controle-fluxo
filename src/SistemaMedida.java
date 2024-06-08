@@ -1,6 +1,6 @@
 public class SistemaMedida {
 	public static void main(String[] args) {
-        
+
 		String sigla = "M";
 
 		if(sigla == "P")
@@ -11,7 +11,6 @@ public class SistemaMedida {
 			System.out.println("GRANDE");
 		else
 			System.out.println("INDEFINIDO");
-			
-		
+            
 	}
 }
