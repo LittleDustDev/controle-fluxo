@@ -1,7 +1,7 @@
 public class PlanoOperadora {
 	public static void main(String[] args) {
 
-		String plano = "M";
+		String plano = "M"; //O plano T possui todos os benefícios, o M possui benefícios do M e do B, o B apenas do B
 
 		switch (plano) {
 			case "T": {
@@ -12,7 +12,7 @@ public class PlanoOperadora {
 			}
 			case "B": {
 				System.out.println("100 minutos de ligação");
-                
+
 			}
 		}
 	}
